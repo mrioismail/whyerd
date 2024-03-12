@@ -1,5 +1,5 @@
 :root {
-   --primary: #757171;
+   --primary: #a39d9d;
    --second: #994d1c;
 }
 
@@ -81,15 +81,18 @@ body {
    height: 100vh;
 }
 
-.about {
-   padding-top: 5rem;
+.about,
+.gallery {
+   padding: 10rem 0;
 }
 
-.about h2 {
+.about h2,
+.gallery h2 {
    font-size: 2.2rem;
 }
 
-.about .aboutUs p {
+.about .aboutUs p,
+.gallery .gallery-judul p {
    font-family: 'Comfortaa';
    letter-spacing: 0.5rem;
 }
@@ -97,6 +100,18 @@ body {
 .about .about-text p {
    font-family: 'caveat';
    font-size: 1.5rem;
+}
+
+.gallery {
+   background-color: var(--primary);
+}
+
+.gallery .swiper-wrapper .img_box {
+   max-width: 100%;
+}
+
+.gallery .card_slider {
+   padding: 50px 0;
 }
 
 /* === Responsive === */
