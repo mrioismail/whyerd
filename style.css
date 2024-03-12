@@ -1,5 +1,5 @@
 :root {
-   --primary: #747264;
+   --primary: #858581;
    --second: #994d1c;
    --color-text: #fffafa;
 }
@@ -181,7 +181,7 @@ body {
    width: 75%;
    height: 250px;
    border-radius: 5px;
-   background: linear-gradient(160deg, var(--primary), #000);
+   background: linear-gradient(160deg, #bebcbc, #1b1b1b);
    padding: 35px 20px;
    box-shadow: 7px 7px 2px rgba(0, 0, 0, 0.5);
 }
@@ -296,7 +296,7 @@ body {
    }
 
    .services .card-services .price {
-      font-size: 0.8rem;
+      font-size: 0.7rem;
       padding: 0;
    }
 }
