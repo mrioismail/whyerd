@@ -104,7 +104,6 @@
             </button>
          </div>
       </section>
-      <!-- Akhir Home -->
 
       <!-- About -->
       <section id="about" class="about">
@@ -134,7 +133,6 @@
             </div>
          </div>
       </section>
-      <!-- Akhir About -->
 
       <!-- Gallery -->
       <section id="gallery" class="gallery slider_container">
@@ -148,7 +146,16 @@
                </div>
             </div>
 
-            <div class="swiper card_slider mt-5">
+            <div class="row mt-5">
+               <div class="col-md-12 caption-gallery">
+                  <p class="title-gallery">
+                     <span>Together</span> We believe that together is a beautiful place to be and handin-hand we can create wonderful things. Every moment matters, let us cross path and seize your special connection through portraits and
+                     films.
+                  </p>
+               </div>
+            </div>
+
+            <div class="swiper card_slider">
                <div class="swiper-wrapper">
                   <div class="swiper-slide">
                      <div class="img_box">
@@ -210,7 +217,6 @@
             </div>
          </div>
       </section>
-      <!-- Akhir Gallery -->
 
       <!-- Services -->
       <section id="services" class="services">
@@ -231,7 +237,7 @@
                      </div>
                      <h3>Wedding Package</h3>
                      <p class="bronze">BRONZE</p>
-                     <a href=""><button class="btn btn-bronze" type="submit">Details</button></a>
+                     <a href="#" data-bs-target="#bronze" data-bs-toggle="modal"><button class="btn btn-bronze" type="submit">Details</button></a>
                      <a href="" class="price">Rp. 5.000.000</a>
                   </div>
                </div>
@@ -242,7 +248,7 @@
                      </div>
                      <h3>Wedding Package</h3>
                      <p class="gold">GOLD</p>
-                     <a href=""><button class="btn btn-gold" type="submit">Details</button></a>
+                     <a href="#" data-bs-target="#gold" data-bs-toggle="modal"><button class="btn btn-gold" type="submit">Details</button></a>
                      <a href="" class="price">Rp. 9.000.000</a>
                   </div>
                </div>
@@ -253,7 +259,7 @@
                      </div>
                      <h3>Wedding Package</h3>
                      <p class="diamond">DIAMOND</p>
-                     <a href=""><button class="btn btn-diamond" type="submit">Details</button></a>
+                     <a href="#" data-bs-target="#diamond" data-bs-toggle="modal"><button class="btn btn-diamond" type="submit">Details</button></a>
                      <a href="" class="price">Rp. 14.000.000</a>
                   </div>
                </div>
@@ -266,7 +272,7 @@
                      <div class="card-body">
                         <h3 class="card-title">Prewedding Package</h3>
                         <p class="card-text">Basic</p>
-                        <a href="#" class="btn btn-primary me-4">Details</a>
+                        <a href="#" class="btn btn-primary me-4" data-bs-target="#basic" data-bs-toggle="modal">Details</a>
                      </div>
                   </div>
                </div>
@@ -275,7 +281,7 @@
                      <div class="card-body">
                         <h3 class="card-title">Prewedding Package</h3>
                         <p class="card-text">Special</p>
-                        <a href="#" class="btn btn-primary me-4">Details</a>
+                        <a href="#" class="btn btn-primary me-4" data-bs-target="#special" data-bs-toggle="modal">Details</a>
                      </div>
                   </div>
                </div>
@@ -288,14 +294,215 @@
                      <img src="img/Engagement-Package.jpg" class="card-img-top ep" alt="..." />
                      <div class="card-body">
                         <h3 class="card-title ep-title">Engagement Package</h3>
-                        <a href="#" class="btn btn-primary ep-btn">Details</a>
+                        <a href="#" class="btn btn-primary ep-btn" data-bs-target="#engagement-package" data-bs-toggle="modal">Details</a>
                      </div>
                   </div>
                </div>
             </div>
+
+            <!-- Modal -> Wedding Package  -->
+            <!-- Bronze -->
+            <div class="modal fade" id="bronze" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+               <div class="modal-dialog">
+                  <div class="modal-content">
+                     <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Wedding Package - BRONZE</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                     </div>
+                     <div class="modal-body">
+                        <p>
+                           <ul>
+                              <li><span class="fw-bold">2 day wedding ceremony</span></li>
+                              <li>2 Photographer (Main, 1 Shooter)</li>
+                              <li>Unlimited Shoot</li>
+                              <li>160 Sheet print | Size 4r</li>
+                              <li>2 Exclusive album magnetic</li>
+                              <li>1 Framed print | Size 16rj</li>
+                              <li>USB contain edited high-res photos, non-edited photos</li>
+                           </ul>
+                           <br><br><br><br><br>
+                           <p class="text-bg-success text-center rounded-pill p-2 fw-bold">Rp. 5.000.000,-</p>
+                        </p>
+                     </div>
+                     <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- Gold -->
+            <div class="modal fade" id="gold" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+               <div class="modal-dialog">
+                  <div class="modal-content">
+                     <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Wedding Package - GOLD</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                     </div>
+                     <div class="modal-body">
+                        <p>
+                           <ul>
+                              <li><span class="fw-bold">2 day wedding ceremony</span></li>
+                              <li>2 Photographer (Main, 1 Shooter)</li>
+                              <li>2 Cinematographer</li>
+                              <li>Unlimited Shoot</li>
+                              <li>3-5 Minutes Cinematic Film
+                              </li>
+                              <li>160 Sheet print | Size 4r</li>
+                              <li>2 Exclusive album magnetic</li>
+                              <li>1 Wedding Book</li>
+                              <li>2 Framed print | Size 16rj </li>
+                              <li>USB contain edited high-res photos, non-edited photos</li>
+                              <li>Google drive final edited film</li>
+                           </ul>
+                           <br><br><br><br><br>
+                           <p class="text-bg-success text-center rounded-pill p-2 fw-bold">Rp. 9.000.000,-</p>
+                        </p>
+                     </div>
+                     <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- Diamond -->
+            <div class="modal fade" id="diamond" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+               <div class="modal-dialog">
+                  <div class="modal-content">
+                     <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Wedding Package - DIAMOND</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                     </div>
+                     <div class="modal-body">
+                        <p>
+                           <ul>
+                              <li><span class="fw-bold">2 day wedding ceremony</span></li>
+                              <li>2 Photographer (Main, 1 Shooter)</li>
+                              <li>2 Cinematographer</li>
+                              <li>1 Drone Pilot</li>
+                              <li>Unlimited Shoot</li>
+                              <li>3-5 Minutes Cinematic Film</li>
+                              <li>160 Sheet print | Size 4r</li>
+                              <li>2 Exclusive album magnetic</li>
+                              <li>1 Wedding Book</li>
+                              <li>2 Framed print | Size 16rj </li>
+                              <li>1 Framed print | Size 20rj</li>
+                              <li>1 Days prewedding photoshoot</li>
+                              <li>USB contain edited high-res photos, non-edited photos</li>
+                              <li>Google drive final edited film</li>
+                           </ul>
+                           <br><br><br><br><br>
+                           <p class="text-bg-success text-center rounded-pill p-2 fw-bold">Rp. 14.000.000,-</p>
+                        </p>
+                     </div>
+                     <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <!-- Modal -> Prewedding Package  -->
+            <!-- Basic -->
+            <div class="modal fade" id="basic" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+               <div class="modal-dialog">
+                  <div class="modal-content">
+                     <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Prewedding Package - BASIC</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                     </div>
+                     <div class="modal-body">
+                        <p>
+                           <ul>
+                              <li><span class="fw-bold">4 Hours Photoshoot</span></li>
+                              <li>2 Photographer (Main, 1 Shooter)</li>
+                              <li>Unlimited Shoot</li>
+                              <li>30 Edited Files</li>
+                              <li>Max 2 Wardrobe</li>
+                              <li>One Venue</li>
+                              <li>USB contain edited high-res photos, non-edited photos</li>
+                           </ul>
+                           <br><br><br><br><br>
+                           <p class="text-bg-success text-center rounded-pill p-2 fw-bold">Rp. 3.500.000,-</p>
+                        </p>
+                     </div>
+                     <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- Special -->
+            <div class="modal fade" id="special" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+               <div class="modal-dialog">
+                  <div class="modal-content">
+                     <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Prewedding Package - SPECIAL</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                     </div>
+                     <div class="modal-body">
+                        <p>
+                           <ul>
+                              <li><span class="fw-bold">8 Hours photoshoot</span></li>
+                              <li>2 Photographer (Main, 1 Shooter)</li>
+                              <li>1 Cinematographer</li>
+                              <li>Unlimited Shoot</li>
+                              <li>1-2 Minutes Cinematic Film</li>
+                              <li>50 Edited Files</li>
+                              <li>Max 2 Wardrobe</li>
+                              <li>USB contain edited high-res photos, non-edited photos</li>
+                              <li>Google drive final edited film</li>
+                           </ul>
+                           <br><br><br><br><br>
+                           <p class="text-bg-success text-center rounded-pill p-2 fw-bold">Rp. 5.000.000,-</p>
+                        </p>
+                     </div>
+                     <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <!-- Modal -> Engagement Package  -->
+            <div class="modal fade" id="engagement-package" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+               <div class="modal-dialog">
+                  <div class="modal-content">
+                     <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Engagement Package</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                     </div>
+                     <div class="modal-body">
+                        <p>
+                           <ul>
+                              <span class="fw-bold">Photo</span>
+                              <li>2 Photographer (Main, 1 Shooter)</li>
+                              <li>Unlimited Shoot</li>
+                              <li>80 Sheet print | Size 4r</li>
+                              <li>1 Exclusive album magnetic</li>
+                              <li>USB contain edited high-res photos, non-edited photos</li>
+                              <br>
+                              <p class="text-bg-success text-center rounded-pill p-2 fw-bold">Rp. 2.000.000,-</p>
+                           </ul>
+                           <br><br><br>
+                           <ul>
+                              <span class="fw-bold">Cinematic</span>
+                              <li>1 Cinematographer</li>
+                              <li>1-2 Minutes Cinematic Film</li>
+                              <li>Google drive final edited film</li>
+                              <br>
+                              <p class="text-bg-success text-center rounded-pill p-2 fw-bold">Rp. 1.000.000,-</p>
+                           </ul>
+                        </p>
+                     </div>
+                     <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
          </div>
       </section>
-      <!-- Akhir Services -->
 
       <!-- Script Bootstrap -->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

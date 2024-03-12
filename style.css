@@ -108,6 +108,24 @@ body {
    background-color: var(--primary);
 }
 
+.gallery .caption-gallery {
+   text-align: center;
+   padding: 0 70px;
+}
+
+.gallery .title-gallery span {
+   color: var(--color-text);
+   font-family: 'Comfortaa';
+   font-size: 1.5rem;
+   font-weight: bold;
+}
+
+.gallery .title-gallery {
+   color: var(--color-text);
+   font-size: 1.5rem;
+   font-family: 'caveat';
+}
+
 .gallery h2 {
    color: var(--color-text);
    font-size: 2.2rem;
@@ -156,13 +174,26 @@ body {
 
 .services .card-services p {
    font-family: 'viga';
-   color: var(--color-text);
    text-align: center;
 }
 
 .services .card-services button {
    color: var(--color-text);
    font-family: 'Comfortaa';
+   font-weight: bold;
+}
+
+.services .bronze {
+   color: var(--second);
+   font-weight: bold;
+}
+
+.services .gold {
+   color: goldenrod;
+}
+
+.services .diamond {
+   color: #67c6e3;
 }
 
 .services .card-services .btn-bronze {
