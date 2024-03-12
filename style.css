@@ -1,5 +1,5 @@
 :root {
-   --primary: #858581;
+   --primary: #747272;
    --second: #994d1c;
    --color-text: #fffafa;
 }
@@ -178,12 +178,12 @@ body {
 }
 
 .services .card-services {
-   width: 75%;
+   width: 80%;
    height: 250px;
    border-radius: 5px;
    background: linear-gradient(160deg, #bebcbc, #1b1b1b);
    padding: 35px 20px;
-   box-shadow: 7px 7px 2px rgba(0, 0, 0, 0.5);
+   box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.5);
 }
 
 /* .services .card-services:hover {
@@ -197,9 +197,45 @@ body {
 
 .services .card-services .price {
    text-decoration: none;
+   font-weight: bold;
    font-family: 'Comfortaa';
    color: var(--color-text);
    font-size: 0.9rem;
+}
+
+.services .card {
+   width: 80%;
+   height: 250px;
+   border-radius: 5px;
+   padding: 35px 20px;
+   box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.5);
+   margin: 0 auto;
+}
+
+.services .card h3 {
+   padding-top: 13px;
+   font-size: 1.4rem;
+   color: #000;
+   font-family: 'viga';
+   text-align: center;
+}
+
+.services .card p {
+   font-family: 'viga';
+   color: #000;
+   text-align: center;
+   font-size: 1.5rem;
+}
+
+.services .card .btn-primary {
+   text-decoration: none;
+   font-family: 'Comfortaa';
+   color: #fff;
+   width: 100%;
+}
+
+.services .ep-card {
+   height: 20rem;
 }
 
 /* === Responsive === */
@@ -255,6 +291,10 @@ body {
    .about .about-text h3 {
       font-size: 1.5rem;
    }
+
+   .services .card-services button {
+      font-size: 0.7rem;
+   }
 }
 
 /* Handphone */
@@ -295,8 +335,12 @@ body {
       font-size: 0.8rem;
    }
 
-   .services .card-services .price {
+   .services .card-services button {
       font-size: 0.7rem;
+   }
+
+   .services .card-services .price {
+      font-size: 0.8rem;
       padding: 0;
    }
 }
