@@ -1,7 +1,7 @@
 :root {
    --primary: #747272;
    --second: #994d1c;
-   --color-text: #fffafa;
+   --color-text: #dfdddb;
 }
 
 body {
@@ -106,8 +106,13 @@ body {
    font-size: 1.5rem;
 }
 
+.about {
+   color: #707070;
+}
+
 .gallery {
    background-color: var(--primary);
+   color: #dfdddb;
 }
 
 .gallery .caption-gallery {
@@ -123,20 +128,20 @@ body {
 }
 
 .gallery .title-gallery {
-   color: var(--color-text);
+   /* color: var(--color-text); */
    font-size: 1.5rem;
    font-family: 'caveat';
 }
 
 .gallery h2 {
-   color: var(--color-text);
+   /* color: var(--color-text); */
    font-size: 2.2rem;
 }
 
 .gallery .gallery-judul p {
    font-family: 'Comfortaa';
    letter-spacing: 0.5rem;
-   color: var(--color-text);
+   /* color: var(--color-text); */
 }
 
 .gallery .swiper-wrapper .img_box {
@@ -147,82 +152,84 @@ body {
    padding: 50px 0;
 }
 
-.services .card-services .bronze-img {
+/* .services .card-services .bronze-img {
    width: 100%;
-}
+} */
 
-.services .card-services .gold-img {
+/* .services .card-services .gold-img {
    width: 90%;
-}
+} */
 
-.services .card-services .diamond-img {
+/* .services .card-services .diamond-img {
    width: 80%;
-}
+} */
 
-.services .card-services .circle-icon {
+/* .services .card-services .circle-icon {
    width: 50px;
    height: 50px;
    background-color: #fff;
    border-radius: 50%;
-}
+} */
 
 .services .card-services h3 {
    padding-top: 13px;
-   font-size: 1.3rem;
-   color: var(--color-text);
+   font-size: 2rem;
+   color: #fff;
    font-family: 'viga';
    text-align: center;
 }
 
 .services .card-services p {
-   font-family: 'viga';
+   font-family: 'Comfortaa';
    text-align: center;
+   color: var(--color-text);
 }
 
 .services .card-services button {
-   color: var(--color-text);
+   color: #707070;
    font-family: 'Comfortaa';
    font-weight: bold;
 }
 
 .services .bronze {
-   color: var(--second);
-   font-weight: bold;
-   font-size: 1.5rem;
+   /* color: var(--second);
+   font-weight: bold; */
+   font-size: 1.2rem;
 }
 
 .services .gold {
-   color: goldenrod;
-   font-size: 1.5rem;
+   /* color: goldenrod; */
+   font-size: 1.2rem;
 }
 
 .services .diamond {
-   color: #67c6e3;
-   font-size: 1.5rem;
+   /* color: #67c6e3; */
+   font-size: 1.2rem;
 }
 
 .services .card-services .btn-bronze {
-   background-color: var(--second);
-   font-size: 1.2rem;
+   background-color: var(--color-text);
+   font-size: 1.5rem;
 }
 
 .services .card-services .btn-gold {
-   background-color: goldenrod;
-   font-size: 1.2rem;
+   background-color: var(--color-text);
+   font-size: 1.5rem;
 }
 
 .services .card-services .btn-diamond {
-   background-color: #67c6e3;
-   font-size: 1.2rem;
+   background-color: var(--color-text);
+   font-size: 1.5rem;
 }
 
 .services .card-services {
    width: 100%;
    height: 250px;
-   border-radius: 5px;
-   background: linear-gradient(160deg, #bebcbc, #1b1b1b);
+   /* border-radius: 5px; */
+   background: #707070;
+   /* background: linear-gradient(160deg, #bebcbc, #1b1b1b); */
    padding: 30px 20px;
-   box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.5);
+   /* box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.5); */
 }
 
 /* .services .card-services:hover {
@@ -239,15 +246,15 @@ body {
    font-weight: bold;
    font-family: 'Comfortaa';
    color: var(--color-text);
-   font-size: 1rem;
+   font-size: 1.1rem;
 }
 
 .services .card {
    width: 80%;
    height: 250px;
-   border-radius: 5px;
+   /* border-radius: 5px; */
    padding: 35px 20px;
-   box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.5);
+   /* box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.5); */
    margin: 0 auto;
 }
 
@@ -402,6 +409,26 @@ footer {
    text-decoration: none;
    color: var(--color-text);
    font-weight: bold;
+}
+
+/* whatsapp */
+.wa a {
+   position: fixed;
+   right: 30px;
+   bottom: 50px;
+   text-decoration: none;
+   border-radius: 50%;
+   height: 55px;
+   width: 55px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #000;
+   z-index: 9999;
+}
+
+.wa i {
+   font-size: 2.2rem;
 }
 
 /* === Responsive === */
