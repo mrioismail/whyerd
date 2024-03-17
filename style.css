@@ -411,6 +411,22 @@ footer {
    font-weight: bold;
 }
 
+.wa a {
+   position: fixed;
+   right: 30px;
+   bottom: 50px;
+   text-decoration: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #000;
+   z-index: 999;
+}
+
+.wa i {
+   font-size: 2.2rem;
+}
+
 /* === Responsive === */
 
 /* Laptop */
